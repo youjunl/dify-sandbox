@@ -6,7 +6,7 @@ jobs:
   build-arm64:
     uses: ./.github/workflows/build.yml
     with:
-      runner: arm64_runner
+      runner: ubuntu-24.04-arm
       arch: arm64
       arch_label: ARM64
     secrets:
