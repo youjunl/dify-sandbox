@@ -1,10 +1,6 @@
 name: Build And Push Universal
 on:
-  push:
-    branches:
-      - main
-  release:
-    types: [published]
+  workflow_dispatch:
 
 jobs:
   build-arm64:
